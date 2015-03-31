@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="drawable-xml自定义的RadioButton:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:checked="true"
+            android:gravity="center"
+            android:button="@drawable/pay_radio_selector"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="canvas自定义的勾选框:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.pangff.widget.RadioCheckBox
+            android:layout_width="30dp"
+            android:padding="5dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
