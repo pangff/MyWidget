@@ -35,7 +35,7 @@ public class RadioCheckBox extends View {
     public RadioCheckBox(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RadioCheckBox, defStyle, 0);
-        bgColor = a.getColor(R.styleable.RadioCheckBox_bgColor, Color.RED);
+        bgColor = a.getColor(R.styleable.RadioCheckBox_circleColor, Color.RED);
         markColor = a.getColor(R.styleable.RadioCheckBox_markColor, Color.WHITE);
         disabledColor = Color.parseColor("#DADADA");
         mPaint = new Paint();

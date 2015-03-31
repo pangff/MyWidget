@@ -41,6 +41,8 @@
         <com.pangff.widget.RadioCheckBox
             android:layout_width="30dp"
             android:padding="5dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:circleColor="#FC852E"
             android:layout_height="30dp" />
 
     </LinearLayout>
